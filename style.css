@@ -215,6 +215,7 @@ nav ul li a {
     margin-top: 100px;
     justify-content: center;
     align-items: center;
+    color: #361803;
 }
 
 .ingredients {
@@ -226,8 +227,9 @@ nav ul li a {
     margin-bottom: 100px;
 }
 
-.fa {
-    border: 1px solid #222;
+.fa,
+.fas {
+    border: 1px solid #361803;
     width: 25%;
     height: 120px;
     padding-top: 50px;
@@ -237,6 +239,7 @@ nav ul li a {
     justify-content: center;
     font-size: 2rem;
     margin-bottom: 50px;
+    color: #361803;
 }
 
 .ingredients>h1 {
@@ -367,15 +370,64 @@ nav ul li a {
     flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .product-details {
     display: flex;
-    width: 100%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .p-image {
     display: flex;
+    align-items: center;
+}
+
+.p-image>img {
+    border-radius: 50%;
+    margin-right: 20px;
+    max-width: 30%;
+}
+
+.p-image>h3 {
+    font-weight: 300;
+}
+
+#awards {
+    /* background-image: url(./images/bg_2.jpg); */
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.branches {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.branches>i {
+    font-size: 50px;
+    border: 1px solid #e6aa3b;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #e6aa3b;
+}
+
+.branches>h3 {
+    color: #e6aa3b;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
