@@ -14,7 +14,11 @@
 
 
     <!-- Custom StyleSheet -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Mobile Responsive Styles -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
 
     <title>Jikoni</title>
 </head>
@@ -25,9 +29,10 @@
             <div class="logo">
                 <h1>Jikoni</h1>
             </div>
+
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Menu</a></li>
@@ -35,10 +40,15 @@
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+                <h3>MENU</h3>
+            </div>
         </header>
 
         <!-- banner -->
-        <div class="banner">
+        <div class="banner" id="home page">
             <h3>Welcome</h3>
             <h1>We have your favourite dishes available</h1>
             <p>Get a taste of your favourite dish</p>
@@ -49,9 +59,9 @@
         </div>
 
         <!-- about -->
-        <div class="about">
+        <div class="about" id="about-section">
             <div class="about-image">
-                <img src="./images/about2.jpeg" alt="">
+                <img src="./assets/images/about2.jpeg" alt="">
             </div>
             <div class="about-text">
                 <h1>Welcome to <span>jikoni inn</span></h1>
@@ -109,7 +119,7 @@
 
             <div class="orders">
                 <div class="order-content">
-                    <img src="./images/pizza-1.jpg" alt="" style="max-width: 50%;">
+                    <img src="./assets/images/pizza-1.jpg" alt="" style="max-width: 50%;">
                     <div class="order-details">
                         <h3>Italian Pizza</h3>
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
@@ -120,7 +130,7 @@
                     </div>
                 </div>
                 <div class="order-content">
-                    <img src="./images/pizza-2.jpg" alt="" style="max-width: 50%;">
+                    <img src="./assets/images/pizza-2.jpg" alt="" style="max-width: 50%;">
                     <div class="order-details">
                         <h3>Greek Pizza</h3>
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
@@ -131,7 +141,7 @@
                     </div>
                 </div>
                 <div class="order-content">
-                    <img src="./images/pizza-3.jpg" alt="" style="max-width: 50%;">
+                    <img src="./assets/images/pizza-3.jpg" alt="" style="max-width: 50%;">
                     <div class="order-details">
                         <h3>Tomatoe Pie</h3>
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
@@ -150,7 +160,7 @@
                             <button>Order</button>
                         </div>
                     </div>
-                    <img src="./images/pizza-4.jpg" alt="" style="max-width: 50%;">
+                    <img src="./assets/images/pizza-4.jpg" alt="" style="max-width: 50%;">
                 </div>
                 <div class="order-content">
                     <div class="order-details">
@@ -161,7 +171,7 @@
                             <button>Order</button>
                         </div>
                     </div>
-                    <img src="./images/pizza-5.jpg" alt="" style="max-width: 50%;">
+                    <img src="./assets/images/pizza-5.jpg" alt="" style="max-width: 50%;">
                 </div>
                 <div class="order-content">
                     <div class="order-details">
@@ -172,7 +182,7 @@
                             <button>Order</button>
                         </div>
                     </div>
-                    <img src="./images/pizza-6.jpg" alt="" style="max-width: 50%;">
+                    <img src="./assets/images/pizza-6.jpg" alt="" style="max-width: 50%;">
                 </div>
             </div>
         </div>
@@ -186,7 +196,7 @@
 
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/pizza-1.jpg" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/pizza-1.jpg" alt="" style="max-width: 10%;">
                             <h3>Italian Pizza</h3>
                         </div>
                         <p>$10</p>
@@ -194,7 +204,7 @@
 
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/pizza-2.jpg" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/pizza-2.jpg" alt="" style="max-width: 10%;">
                             <h3>Bacon Pizza</h3>
                         </div>
                         <p>$10</p>
@@ -202,14 +212,14 @@
 
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/bg_1.png" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/bg_1.png" alt="" style="max-width: 10%;">
                             <h3>Caucasian Pizza</h3>
                         </div>
                         <p>$10</p>
                     </div>
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/pizza-4.jpg" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/pizza-4.jpg" alt="" style="max-width: 10%;">
                             <h3>Ultimate Overload</h3>
                         </div>
                         <p>$10</p>
@@ -220,7 +230,7 @@
 
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/pizza-5.jpg" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/pizza-5.jpg" alt="" style="max-width: 10%;">
                             <h3>Margherita</h3>
                         </div>
                         <p>$10</p>
@@ -228,7 +238,7 @@
 
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/bg_2.png" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/bg_2.png" alt="" style="max-width: 10%;">
                             <h3>American Pizza</h3>
                         </div>
                         <p>$10</p>
@@ -236,14 +246,14 @@
 
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/pizza-7.jpg" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/pizza-7.jpg" alt="" style="max-width: 10%;">
                             <h3>Tomatoe Pie</h3>
                         </div>
                         <p>$10</p>
                     </div>
                     <div class="product-details">
                         <div class="p-image">
-                            <img src="./images/pizza-8.jpg" alt="" style="max-width: 10%;">
+                            <img src="./assets/images/pizza-8.jpg" alt="" style="max-width: 10%;">
                             <h3>Greek Pizza</h3>
                         </div>
                         <p>$10</p>

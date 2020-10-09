@@ -43,7 +43,7 @@ header {
 nav {
     display: flex;
     width: 40%;
-    margin-right: 30px;
+    margin-right: 20px;
     color: #fff;
 }
 
@@ -58,7 +58,40 @@ nav ul li a {
     list-style: none;
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #eec231;
+}
+
+.hamburger {
+    width: 7%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    right: 50%;
+    margin-right: 20px;
+}
+
+.hamburger>i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 3px;
+    width: auto;
+    height: auto;
+}
+
+.hamburger>h3 {
+    width: auto;
+    height: auto;
 }
 
 .banner {
@@ -70,8 +103,8 @@ nav ul li a {
     text-align: center;
     min-height: 100vh;
     width: 100%;
-    background-image: url(./images/about1.jpeg);
-    background-color: #272626;
+    background-image: url(../assets/images/about1.jpeg);
+    /* background-color: #615d5d; */
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,13 +227,14 @@ nav ul li a {
     flex-direction: column;
     width: 100%;
     height: auto;
-    background-image: url(./images/food.png);
+    background-image: url(../assets/images/food.png);
 }
 
 .service-text {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -208,6 +242,8 @@ nav ul li a {
 
 .service-text>p {
     margin-top: 30px;
+    width: 100%;
+    height: auto;
 }
 
 .service-description {
@@ -269,7 +305,7 @@ nav ul li a {
     height: auto;
     color: #fff;
     width: 100%;
-    background-image: url(./images/bg_4.jpg);
+    background-image: url(../assets/images/bg_4.jpg);
 }
 
 .meal-text>h1 {
@@ -296,7 +332,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: url(./images/bg_4.jpg);
+    background-image: url(../assets/images/bg_4.jpg);
 }
 
 .order-details>h3 {
@@ -343,7 +379,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     color: #fff;
-    background-image: url(./images/bg_4.jpg);
+    background-image: url(../assets/images/bg_4.jpg);
 }
 
 .p-text {
@@ -385,6 +421,10 @@ nav ul li a {
     padding-top: 30px;
 }
 
+.product-details>p {
+    color: #dfa11d;
+}
+
 .p-image {
     display: flex;
     align-items: center;
@@ -401,7 +441,7 @@ nav ul li a {
 }
 
 #awards {
-    background-image: url(./images/bg_2.jpg);
+    background-image: url(../assets/images/bg_2.jpg);
     background-color: rgb(14, 13, 13);
     background-blend-mode: overlay;
     color: #fff;
