@@ -10,3 +10,18 @@ function showNavLinks() {
         navbar.style.display = 'none'
     }
 }
+
+// get menu function
+
+const menuButton = document.querySelector('#menu');
+const orderBtn = document.querySelector('#order');
+
+orderBtn.addEventListener('click', getMenu);
+
+menuButton.addEventListener('click', getMenu);
+
+function getMenu() {
+    if (true) {
+        location.href = '#meals';
+    }
+}
