@@ -33,6 +33,7 @@
         color: #fff;
         width: 100%;
         margin-left: -180px;
+        display: none;
     }
 
     nav ul {
@@ -40,7 +41,6 @@
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
-        display: none;
     }
 
     nav ul li,
@@ -68,9 +68,9 @@
         outline: none;
         cursor: pointer;
         visibility: visible;
-        position: absolute;
-        right: -1%;
-        top: 15%;
+        top: 3%;
+        right: 0;
+        position: fixed;
     }
 
     .hamburger>i {
@@ -497,6 +497,7 @@
         color: #fff;
         width: 100%;
         margin-left: -180px;
+        display: none;
     }
 
     nav ul {
@@ -504,7 +505,6 @@
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
-        display: none;
     }
 
     nav ul li,
@@ -532,9 +532,9 @@
         outline: none;
         cursor: pointer;
         visibility: visible;
-        position: absolute;
-        right: -1%;
-        top: 15%;
+        top: 3%;
+        right: 0;
+        position: fixed;
     }
 
     .hamburger>i {
@@ -962,6 +962,7 @@
         color: #fff;
         width: 100%;
         margin-left: -180px;
+        display: none;
     }
 
     nav ul {
@@ -969,7 +970,6 @@
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
-        display: none;
     }
 
     nav ul li,
@@ -997,9 +997,9 @@
         outline: none;
         cursor: pointer;
         visibility: visible;
-        position: absolute;
-        right: -1%;
-        top: 15%;
+        top: 3%;
+        right: 0;
+        position: fixed;
     }
 
     .hamburger>i {

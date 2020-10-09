@@ -233,6 +233,7 @@ nav ul li a.active {
 .service-text {
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     height: auto;
     display: flex;
