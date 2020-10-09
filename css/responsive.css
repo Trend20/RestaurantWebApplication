@@ -775,6 +775,8 @@
     .order-content {
         display: flex;
         margin: 20px 0px;
+        height: auto;
+        width: 100%;
     }
 
     .order-content>img {
@@ -782,7 +784,6 @@
         height: auto;
         object-fit: cover;
     }
-
 
     .order-details {
         justify-content: center;
@@ -1251,6 +1252,8 @@
     .order-content {
         display: flex;
         margin: 20px 0px;
+        height: auto;
+        width: 100%;
     }
 
     .order-content>img {
@@ -1259,11 +1262,11 @@
         object-fit: cover;
     }
 
-
     .order-details {
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: auto;
         background-image: url(../assets/images/bg_4.jpg);
     }
 
