@@ -315,7 +315,7 @@
     .order-details {
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 50%;
         height: auto;
         background-image: url(../assets/images/bg_4.jpg);
     }
@@ -325,6 +325,7 @@
         letter-spacing: 2px;
         margin-left: 20px;
         margin-top: 30px;
+        height: auto;
     }
 
     .order-details>p {
@@ -332,6 +333,7 @@
         margin-top: 15px;
         line-height: 2;
         margin-left: 20px;
+        height: auto;
     }
 
     .price {
@@ -788,7 +790,7 @@
     .order-details {
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 50%;
         height: auto;
         background-image: url(../assets/images/bg_4.jpg);
     }
@@ -798,6 +800,7 @@
         letter-spacing: 2px;
         margin-left: 20px;
         margin-top: 30px;
+        height: auto;
     }
 
     .order-details>p {
@@ -805,6 +808,7 @@
         margin-top: 15px;
         line-height: 2;
         margin-left: 20px;
+        height: auto;
     }
 
     .price {
@@ -1275,6 +1279,7 @@
         letter-spacing: 2px;
         margin-left: 20px;
         margin-top: 30px;
+        height: auto;
     }
 
     .order-details>p {
@@ -1282,6 +1287,7 @@
         margin-top: 15px;
         line-height: 2;
         margin-left: 20px;
+        height: auto;
     }
 
     .price {
