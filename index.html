@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- FontAwesome Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" crossorigin="anonymous" />
 
 
     <!-- Google Font -->
@@ -32,12 +32,17 @@
 
             <nav class="navbar">
                 <ul>
-                    <li><a href="#home-page" class="active">Home</a></li>
+                    <li><a href="." class="active">Home</a></li>
                     <li><a href="#about-section">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#meals">Menu</a></li>
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#contact">Contact Us</a></li>
+                    <li>
+                        <div class="cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </li>
                 </ul>
             </nav>
 
@@ -66,14 +71,8 @@
             <div class="about-text">
                 <h1>Welcome to <span>jikoni inn</span></h1>
                 <p>
-                    Yummi Pizaa is the place where all your needs are provided on the
-                    best quality possible. We care about our esteemed customers.
-                    We provide 24/7 service across the country and supply customers
-                    deliveries to their doorstep. You can always make your favourite
-                    order and get it delivered to your home without any extra cost.
-                    Our prices are affordable and we tend to take keen interest on customer
-                    suggestions. We also have the best chefs who does what they love doing.
-                    Welcome to Yummi Pizza!!!
+                    Jikoni Inn is the place where all your needs are provided on the best quality possible. We care about our esteemed customers. We provide 24/7 service across the country and supply customers deliveries to their doorstep. You can always make your favourite
+                    order and get it delivered to your home without any extra cost. Our prices are affordable and we tend to take keen interest on customer suggestions. We also have the best chefs who does what they love doing. Welcome to Jikoni Inn!!!
                 </p>
             </div>
         </div>
@@ -125,7 +124,7 @@
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
                         <div class="price">
                             <p>$7.00</p>
-                            <button>Order</button>
+                            <button class="add-to-cart">Order</button>
                         </div>
                     </div>
                 </div>
@@ -136,7 +135,7 @@
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
                         <div class="price">
                             <p>$7.00</p>
-                            <button>Order</button>
+                            <button class="add-to-cart">Order</button>
                         </div>
                     </div>
                 </div>
@@ -147,7 +146,7 @@
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
                         <div class="price">
                             <p>$7.00</p>
-                            <button>Order</button>
+                            <button class="add-to-cart">Order</button>
                         </div>
                     </div>
                 </div>
@@ -157,7 +156,7 @@
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
                         <div class="price">
                             <p>$7.00</p>
-                            <button>Order</button>
+                            <button class="add-to-cart">Order</button>
                         </div>
                     </div>
                     <img src="./assets/images/pizza-4.jpg" alt="" style="max-width: 50%;">
@@ -168,7 +167,7 @@
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
                         <div class="price">
                             <p>$7.00</p>
-                            <button>Order</button>
+                            <button class="add-to-cart">Order</button>
                         </div>
                     </div>
                     <img src="./assets/images/pizza-5.jpg" alt="" style="max-width: 50%;">
@@ -179,7 +178,7 @@
                         <p>Make a taste of the most delicious species in town and accross the country.</p>
                         <div class="price">
                             <p>$7.00</p>
-                            <button>Order</button>
+                            <button class="add-to-cart">Order</button>
                         </div>
                     </div>
                     <img src="./assets/images/pizza-6.jpg" alt="" style="max-width: 50%;">
@@ -292,15 +291,15 @@
         <!-- Contact -->
 
         <div id="contact">
-            <form action="" id="form">
+            <form action="" id="form" method="POST">
                 <h1>Contact Us</h1>
                 <input type="text" placeholder="First Name" required>
                 <input type="text" placeholder="Last Name" required>
                 <textarea name="Message" id="message" cols="30" rows="10" required>Message</textarea>
-                <button>Send</button>
+                <button type="submit">Send</button>
             </form>
         </div>
-
+        <i class="fas fa-arrow-up" id="up"></i>
     </div>
     <script src="./main.js"></script>
 </body>

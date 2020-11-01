@@ -37,6 +37,8 @@ header {
     height: 70px;
     background: #000;
     color: #fefefe;
+    position: fixed;
+    z-index: 99;
 }
 
 .logo {
@@ -68,6 +70,10 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.active {
     color: #eec231;
+}
+
+.cart {
+    cursor: pointer;
 }
 
 .hamburger {
@@ -173,6 +179,7 @@ nav ul li a.active {
     font-weight: bold;
 }
 
+
 /* about */
 
 .about {
@@ -225,7 +232,9 @@ nav ul li a.active {
     margin-bottom: 50px;
 }
 
+
 /* services */
+
 #services {
     display: flex;
     flex-direction: column;
@@ -403,7 +412,6 @@ nav ul li a.active {
     opacity: 0.5;
 }
 
-
 .main-prices {
     display: flex;
     width: 100%;
@@ -455,7 +463,6 @@ nav ul li a.active {
     justify-content: space-around;
     align-items: center;
 }
-
 
 .branches {
     display: flex;
@@ -539,8 +546,6 @@ nav ul li a.active {
     margin-bottom: 10px;
 }
 
-
-
 #form>textarea {
     margin-top: 30px;
     background: transparent;
@@ -573,4 +578,18 @@ nav ul li a.active {
     outline: none;
     color: #e6aa3b;
     border: 1px solid #e6aa3b;
+}
+
+#up {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    right: 3%;
+    bottom: -570%;
+    background: #dfa11d;
+    height: auto;
+    width: 5%;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
 }

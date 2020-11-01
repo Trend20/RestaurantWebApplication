@@ -25,3 +25,7 @@ function getMenu() {
         location.href = '#meals';
     }
 }
+
+// cart items
+let myCart = document.querySelector('.cart');
+let addToCartBtn = document.querySelectorAll('.add-to-cart');
